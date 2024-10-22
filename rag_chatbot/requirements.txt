@@ -1,10 +1,10 @@
 streamlit==1.39.0
 python-decouple==3.8
-langchain==0.3.1
-langchain-chroma==0.1.4
-langchain-community==0.3.1
-langchain-core==0.3.7
-langchain-openai==0.2.1
-openai==1.46.0
-chromadb==0.5.7
+langchain==0.0.287  # Versão mais estável para evitar incompatibilidades
+langchain-chroma==0.0.1  # Use uma versão anterior do langchain-chroma
+langchain-community==0.0.1
+langchain-core==0.0.1
+langchain-openai==0.0.1
+openai==0.27.0  # Versão estável da API OpenAI
+chromadb==0.3.23  # Use uma versão mais estável do chromadb
 protobuf==3.20.*
